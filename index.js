@@ -54,3 +54,9 @@ const multiply = (num1,num2) => {
 
 //console.log(multiply(10,2))
 //6.
+
+const add = (a, b) => {
+    return a + b
+}
+
+console.log(add(2, -2))
