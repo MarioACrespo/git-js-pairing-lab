@@ -59,4 +59,16 @@ const add = (a, b) => {
     return a + b
 }
 
-console.log(add(2, -2))
+//console.log(add(2, -2))
+//7.
+const isNegative = (num) => {
+    if (num <= 0) {
+        return true;
+    } else {
+        return false
+    }
+}
+
+//console.log(isNegative(-10))
+//console.log(isNegative(10))
+//8.
