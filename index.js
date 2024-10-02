@@ -105,4 +105,50 @@ const largest = (a, b, c) => {
 
 //console.log(largest(4, 6, 8))
 
-//11. as
+
+
+
+//13.
+const getExtension = (file) => {
+    return file.substring(file.lastIndexOf(".") , file.length)
+}
+
+//console.log(getExtension("joe.txt"))
+
+
+
+ //14.
+ const absoluteNineteen = (num) => {
+    if (num > 19) {
+        return num - 19;
+    } else if (num < 19) {
+        return 19 - num;
+    } else if (num === 19) {
+        return 0;
+    } else {
+        return "invalid input"
+    }
+ }
+
+// console.log(absoluteNineteen(30))
+// console.log(absoluteNineteen(-3))
+// console.log(absoluteNineteen(19))
+// console.log(absoluteNineteen("three"))
+
+
+
+
+
+//15.
+
+const str = "Mario lets a go";
+
+const switchLetters = str.split(" ").map(word => {
+  const len = word.length;
+  if (len > 1) {
+    word = word[len-1] +  word.substring(1, len-1) + word[0];
+  }
+  return word;
+}).join(" ");
+
+console.log(switchLetters)
