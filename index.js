@@ -46,4 +46,11 @@ const unitlNum = (num) => {
     console.log(x)
 }
 
-unitlNum(5)
+//unitlNum(5)
+//5. 
+const multiply = (num1,num2) => {
+    return num1 * num2;
+}
+
+//console.log(multiply(10,2))
+//6.
