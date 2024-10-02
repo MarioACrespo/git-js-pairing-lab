@@ -72,3 +72,9 @@ const isNegative = (num) => {
 //console.log(isNegative(-10))
 //console.log(isNegative(10))
 //8.
+
+const triangleArea = (b, h) => {
+    return .5 * (b * h)
+}
+
+// console.log(triangleArea(5, 7))
