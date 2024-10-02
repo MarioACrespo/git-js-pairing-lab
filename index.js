@@ -13,7 +13,7 @@ const fiveToOneHundred = () => {
 
 const multiplesOfThree = () => {
 
-    for (let i = 0; i <= 100; i++){
+    for (let i = 1; i <= 100; i++){
         if (i % 3 === 0){
             console.log(i)
         }
@@ -24,7 +24,7 @@ const multiplesOfThree = () => {
 //3.
 const multiplesOfThreeOrFive = () => {
 
-    for (let i = 0; i <= 100; i++){
+    for (let i = 1; i <= 100; i++){
         if (i % 3 === 0){
             console.log(i)
         }
@@ -36,3 +36,14 @@ const multiplesOfThreeOrFive = () => {
 
 //multiplesOfThreeOrFive()
 //4.
+
+const unitlNum = (num) => {
+    let x = 1
+    while (x !== num){
+        console.log(x)
+        x++
+    }
+    console.log(x)
+}
+
+unitlNum(5)
